@@ -1,0 +1,211 @@
+body {
+    background-color: black;
+}
+
+.scenery {
+    height: 99vh;
+    width: 99vw;
+    border: 2px solid red;
+    overflow-y: hidden;
+    animation-name: bgchange;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+}
+
+@keyframes bgchange {
+    0% {
+        background-color: black;
+    }
+
+    50% {
+        background-color:white;
+    }
+
+    100% {
+        background-color: black;
+    }
+}
+
+#sunandmoon {
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 60vh;
+    left: 0vw;
+    animation-name: poschange;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(1000);
+    animation-delay: 2s;
+}
+
+@keyframes poschange {
+    0% {
+        background-color: black;
+    }
+
+    20% {
+        background-color: #ffeaa7;
+        top: 20vh;
+        left: 30vw;
+        box-shadow: 0 0 5px rgb(249, 111, 111);
+    }
+
+    35% {
+        background-color: #fdcb6e;
+        top: 15vh;
+        left: 35vw;
+        box-shadow: 0 0 7px rgb(248, 93, 93);
+    }
+
+    50% {
+        background-color: #fc982c;
+        top: 10vh;
+        left: 50vw;
+        box-shadow: 0 0 10px red;
+    }
+    70% {
+        background-color: #f57b7b;
+        top: 15vh;
+        left: 65vw;
+        box-shadow: 0 0 7px rgb(248, 93, 93);
+    }
+
+    85% {
+        background-color: #ff6b6b;
+        top: 20vh;
+        left: 70vw;
+        box-shadow: 0 0 5px rgb(249, 111, 111);
+    }
+    90% {
+        background-color: rgb(111, 59, 59);
+        top: 50vh;
+        left: 90vw;
+    }
+    100% {
+        background-color: black;
+        top: 60vh;
+        left: 100vw;
+    }
+}
+
+#mountain {
+    background-size: 100%;
+    position: relative;
+    top: 53vh;
+    width: 100vw;
+    height: 49vh;
+}
+
+#image {
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width:370px)
+{
+    
+@keyframes poschange {
+    0% {
+        background-color: black;
+    }
+
+    20% {
+        background-color: #ffeaa7;
+        top: 85vh;
+        left: 20vw;
+        box-shadow: 0 0 5px rgb(249, 111, 111);
+    }
+
+    35% {
+        background-color: #fdcb6e;
+        top: 80vh;
+        left: 35vw;
+        box-shadow: 0 0 7px rgb(248, 93, 93);
+    }
+
+    50% {
+        background-color: #fc982c;
+        top: 75vh;
+        left: 50vw;
+        box-shadow: 0 0 20px rgb(247, 141, 141);
+    }
+    65% {
+
+        top: 80vh;
+        left: 70vw;
+        box-shadow: 0 0 7px rgb(248, 93, 93);
+    }
+
+    80% {
+        top: 85vh;
+        left: 85vw;
+        box-shadow: 0 0 5px rgb(249, 111, 111);
+    }
+    90% {
+        background-color: rgb(111, 59, 59);
+        top: 87vh;
+        left: 90vw;
+    }
+    100% {
+        background-color: black;
+        top: 90vh;
+        left: 100vw;
+    }
+}
+
+@keyframes bgchange {
+    0% {
+        background-color: black;
+    }
+
+    50% {
+        background-color:white;
+    }
+
+    100% {
+        background-color: black;
+    }
+}
+#mountain {
+    background-size: 100%;
+    position: relative;
+    top: 80vh;
+    width: 100vw;
+    height: 12vh;
+  }
+  #sunandmoon {
+    height: 7vh;
+    width: 7vh;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 90vh;
+    left: 0vw;
+    animation-name: poschange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(1000);
+    animation-delay: 2s;
+}
+.scenery {
+    height: 99vh;
+    width: 99vw;
+    border: 2px solid red;
+    overflow-y: hidden;
+    animation-name: bgchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+}
+#image {
+    height: 100%;
+    width: 100%;
+}
+
+}
